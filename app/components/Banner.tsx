@@ -9,6 +9,7 @@ const Banner = () => {
         className='object-cover object-left'
         fill
       />
+
       <div className='absolute top-1/2 w-full text-center'>
         <p className='text-sm sm:text-lg '>Not sure where to go? Perfect.</p>
         <button
