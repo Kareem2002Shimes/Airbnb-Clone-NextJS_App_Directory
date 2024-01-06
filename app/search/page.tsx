@@ -32,6 +32,7 @@ const SearchResult = async ({
     'More filters',
   ];
   const searchResultData: SearchResultData = await getSearchResult();
+
   return (
     <>
       <Header placeholder={`${location} | ${range} | ${numOfGuests} guests`} />
