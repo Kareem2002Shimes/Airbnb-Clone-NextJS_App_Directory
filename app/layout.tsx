@@ -18,7 +18,6 @@ export default function RootLayout({
     <html lang='en'>
       <body className={inter.className}>
         <NextTopLoader color='#FE595E' />
-
         {children}
       </body>
     </html>
